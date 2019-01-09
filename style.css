@@ -1,0 +1,49 @@
+# Criar script de estilo para formatação de sites.
+.hamburger-menu-close-button{display:none}
+#imSite{position:relative}
+#imMnMn{text-align:left}
+#imMnMn > ul{z-index:10001;display:inline-block}
+#imMnMn li > ul,
+#imMnMn li > div{z-index:10002} 
+#imMnMn ul{padding:0;margin:0;list-style-type:none}
+#imMnMn > ul{margin-left:0}
+#imMnMn > ul > li{position:relative;margin-left:1px}
+#imMnMn > ul > li:first-child{margin-left:0}
+#imMnMn > ul > li{cursor:pointer;display:block;float:left}
+#imMnMn > ul > li > a{display:block}
+#imMnMn > ul > li .imMnMnFirstBg{background-image:url('../menu/hor_main.png');width:170px;height:32px}
+#imMnMn > ul > li:hover .imMnMnFirstBg,
+#imMnMn > ul > li.imMnMnCurrent:hover .imMnMnFirstBg{background-image:url('../menu/hor_main_h.png')}
+#imMnMn > ul > li.imMnMnSeparator .imMnMnFirstBg{background-image:none;cursor:auto}
+#imMnMn > ul > li.imMnMnCurrent .imMnMnFirstBg{background-image:url('../menu/hor_main_c.png');cursor:auto}
+#imMnMn > ul > li.imMnMnFirst .imMnMnFirstBg{background-image:url('../')}
+#imMnMn > ul > li.imMnMnFirst:hover .imMnMnFirstBg,
+#imMnMn > ul > li.imMnMnFirst.imMnMnCurrent:hover .imMnMnFirstBg{background-image:url('../')}
+#imMnMn > ul > li.imMnMnFirst.imMnMnSeparator:hover .imMnMnFirstBg{background-image:none;cursor:auto}
+#imMnMn > ul > li.imMnMnFirst.imMnMnCurrent .imMnMnFirstBg{background-image:url('../');cursor:auto}
+#imMnMn > ul > li.imMnMnMiddle .imMnMnFirstBg{background-image:url('../')}
+#imMnMn > ul > li.imMnMnMiddle:hover .imMnMnFirstBg,
+#imMnMn > ul > li.imMnMnMiddle.imMnMnCurrent:hover .imMnMnFirstBg{background-image:url('../')}
+#imMnMn > ul > li.imMnMnMiddle.imMnMnSeparator:hover .imMnMnFirstBg{background-image:none;cursor:auto}
+#imMnMn > ul > li.imMnMnMiddle.imMnMnCurrent .imMnMnFirstBg{background-image:url('../');cursor:auto}
+#imMnMn > ul > li.imMnMnLast .imMnMnFirstBg{background-image:url('../')}
+#imMnMn > ul > li.imMnMnLast:hover .imMnMnFirstBg,
+#imMnMn > ul > li.imMnMnLast.imMnMnCurrent:hover .imMnMnFirstBg{background-image:url('../')}
+#imMnMn > ul > li.imMnMnLast.imMnMnSeparator:hover .imMnMnFirstBg{background-image:none;cursor:auto}
+#imMnMn > ul > li.imMnMnLast.imMnMnCurrent .imMnMnFirstBg{background-image:url('../');cursor:auto}
+#imMnMn > ul > li .imMnMnFirstBg .imMnMnImg,
+#imMnMn > ul > li:hover .imMnMnFirstBg .imMnMnImg{overflow:hidden;position:absolute;line-height:32px;width:100%;height:32px;top:0;left:0;text-align:left}
+#imMnMn > ul > li .imMnMnFirstBg .imMnMnImg img,
+#imMnMn > ul > li:hover .imMnMnFirstBg .imMnMnImg img{border:none}
+#imMnMn > ul > li .imMnMnFirstBg .imMnMnLevelImg{display:none}
+#imMnMn > ul > li .imMnMnFirstBg .imMnMnHoverIcon{display:none}
+#imMnMn > ul > li:hover .imMnMnFirstBg .imMnMnDefaultIcon{display:none}
+#imMnMn > ul > li:hover .imMnMnFirstBg .imMnMnHoverIcon{display:inline}
+#imMnMn > ul > li.imMnMnSeparator > .imMnMnFirstBg > .imMnMnTxt{display:none}
+#imMnMn > ul > li > a{text-decoration:none}
+#imMnMn > ul > li .imMnMnFirstBg > .imMnMnTxt{overflow:hidden;margin:0;padding:0;width:167px;height:32px;font:normal normal normal 12pt 'Verdana';color:
+#000000;text-align:center;text-decoration:none;line-height:32px;display:block}
+#imMnMn > ul > li:hover .imMnMnFirstBg > .imMnMnTxt,
+#imMnMn > ul > li.imMnMnCurrent:hover .imMnMnFirstBg > .imMnMnTxt{cursor:pointer;color:#FFFFFF;font-weight:bold;font-style:normal}
+#imMnMn > ul > li.imMnMnCurrent .imMnMnFirstBg > .imMnMnTxt{color:
+#00000
